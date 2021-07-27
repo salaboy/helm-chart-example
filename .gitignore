@@ -13,3 +13,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+Chart.lock
+charts/
+helm-chart-example-0.1.0.tgz

@@ -19,4 +19,4 @@ keywords:
 #dependencies:
 #- name: postgresql
 #  repository: https://charts.bitnami.com/bitnami
-#  version: 13.3.0
+#  version: 10.8.0 
