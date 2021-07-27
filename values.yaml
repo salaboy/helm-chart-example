@@ -1,0 +1,4 @@
+image:
+  repository: salaboy/fmtok8s-monolith
+  tag: v0.1.0
+  pullPolicy: IfNotPresent  
