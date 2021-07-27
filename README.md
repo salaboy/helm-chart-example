@@ -34,6 +34,9 @@ Package your chart to distribute, this will generate a `tgz` (compressed) file w
 helm package . 
 ```
 
+# References
+
+- [Inspecting Helm Releases that are stored in secrets](https://dbafromthecold.com/2020/08/10/decoding-helm-secrets/)
 
 
 For more information visit: [From Monolith To K8s](http://github.com/salaboy/from-monolith-to-k8s)
