@@ -16,3 +16,7 @@ keywords:
   - helm
   - kubernetes
   - tutorial
+#dependencies:
+#- name: postgresql
+#  repository: https://charts.bitnami.com/bitnami
+#  version: 13.3.0
