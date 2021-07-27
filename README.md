@@ -34,6 +34,17 @@ Package your chart to distribute, this will generate a `tgz` (compressed) file w
 helm package . 
 ```
 
+# Dependencies
+
+Helm allows you to define Chart dependencies using the `dependencies` section inside the `Charts.yaml` file. You can see that this section is [commented in this example chart](https://github.com/salaboy/helm-chart-example/blob/main/Chart.yaml#L19). You can uncomment this section to install PostgreSQL along side your application. 
+If you want to use dependencies with your charts, you need to make sure to run the following command before running `helm package .`
+
+```
+helm dependency build
+```
+
+This command will fetch all the dependencies to be packaged with your chart in a single and standalone package.
+
 # References
 
 - [Inspecting Helm Releases that are stored in secrets](https://dbafromthecold.com/2020/08/10/decoding-helm-secrets/)
