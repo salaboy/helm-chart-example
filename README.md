@@ -7,7 +7,8 @@ This chart uses the following docker image to start a simple monolith applicatio
 - Have a Kubernetes Cluster, you can use KinD or K3s or a real Kubernetes Cluster in a Cloud Provider. 
 - Install [Helm](https://helm.sh/docs/intro/install/)
 - Clone this repo with: `git clone https://github.com/salaboy/helm-chart-example.git`
-- 
+
+
 # Working with Helm
 
 Common Helm Operations that you might want to run for your charts (from inside the chart directory): 
