@@ -1,0 +1,6 @@
+Example Helm Chart V0.1.0
+
+Creates a Deployment and a Service for the container: salaboy/fmtok8s-monolith:v0.1.0
+
+Chart Deployed: {{ .Chart.Name }} - {{ .Chart.Version }}
+Release Name: {{ .Release.Name }}
